@@ -65,6 +65,7 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-container {
@@ -193,12 +194,15 @@ img {
     color: var(--primary-text-colour);
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .section-list {
     display: flex;
     gap: 24px;
     align-items: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 
@@ -221,11 +225,9 @@ img {
 
 
 .section-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
     background: var(--footer-logo);
-}
-
-.section-list.team {
-    padding-top: 0;
 }
 
 
@@ -285,15 +287,13 @@ img {
 
 /**------------Portfolio------------------*/
 
-.navigation-btn-container {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
+.section.portfolio {
+    padding-top: 96px;
 }
 
 .section-list.navigation {
-    padding-top: 96px;
-    padding-bottom: 72px;
+    justify-content: center;
+    margin-bottom: 72px;
     gap: 24px;
 }
 
@@ -327,7 +327,6 @@ img {
 /**------------Gallery------------------*/
 
 .nav-btn-list {
-    padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     flex-basis: calc((100% - 48px / 3));
