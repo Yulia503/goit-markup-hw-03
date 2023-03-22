@@ -38,7 +38,7 @@ address {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    /* outline: 2px solid tomato; */
+    outline: 2px solid tomato;
 }
 
 body {
@@ -220,6 +220,10 @@ img {
 }
 
 .section-list.work {
+    padding-top: 0;
+}
+
+.section.about-work { 
     padding-top: 0;
 }
 
